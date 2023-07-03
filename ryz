@@ -1,0 +1,7 @@
+echo "# lee" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/leeryzal/lee.git
+git push -u origin main
